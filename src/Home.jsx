@@ -1,6 +1,7 @@
 import React from "react";
 import image from './image/image.png';
 import Typewriter from "typewriter-effect";
+import Greeting from "./Greeting";
 
 
 
@@ -17,7 +18,9 @@ const Home =()=>{
 <div className="container-fluid main ">
     
 <div className="row">
+<div ><Greeting/></div>
       <div className="col-lg-6 col-md-6 col-12 ">
+        
     <div className="home">
       <p>Hey Everyone <br/>I am &ensp;
       <span style={{color:"#00ffff"}}>Antu Kumar</span></p>
