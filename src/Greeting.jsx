@@ -21,7 +21,7 @@ else if(curdate>=12 && curdate<19)
 }
 else{
   greeting="Good Night";
-  cstyle.color="black";
+  cstyle.color="blue";
 }
 return(
     <>
